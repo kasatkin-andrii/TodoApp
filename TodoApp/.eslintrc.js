@@ -13,4 +13,13 @@ module.exports = {
       },
     },
   ],
-};
+  rules: {
+    semi: ['error', 'never'],
+    'prettier/prettier': [
+      'error',
+      {
+        endOfLine: 'auto',
+      },
+    ],
+  },
+}
